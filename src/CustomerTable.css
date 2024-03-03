@@ -1,0 +1,82 @@
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.customer-table-container {
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  position: relative;
+}
+
+.search-filters {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-filters input, .search-filters select {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-filters input:focus, .search-filters select:focus {
+  border-color: #4d85a0;
+}
+
+.sort-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border-spacing: 0;
+}
+
+.customer-table th, .customer-table td {
+  border: 1px solid #fff;
+  padding: 12px;
+  text-align: left;
+}
+
+.customer-table th {
+}
+
+.customer-table tbody tr {
+}
+
+.customer-table tbody tr:hover {
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  border: 1px solid #4d85a0;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+}
+
+.pagination button.active {
+}
